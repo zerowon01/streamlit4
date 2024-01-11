@@ -4,3 +4,5 @@ st.write("My app")
 st.balloons()
 st.write("A new update..")
 st.sidebar.image("static/datarobot.png")
+
+st.write(st.experimental_user)
