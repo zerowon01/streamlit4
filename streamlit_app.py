@@ -3,7 +3,7 @@ import gettext
 
 
 #i18n
-t = gettext.translation("i18n", "locale", fallback=True)
+t = gettext.translation("i18n", ".streamlit/locale", fallback=True)
 _ = t.gettext
 
 
